@@ -6,7 +6,7 @@
   "scripts": {
     "data": "python etl/build_data.py public/data.json",
     "test:etl": "python etl/test_build_data.py",
-    "test": "node --test test/",
+    "test": "node --test",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
