@@ -1,0 +1,15 @@
+{
+  "name": "recorra-saas-metrics",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data": "python etl/build_data.py public/data.json",
+    "test:etl": "python etl/test_build_data.py",
+    "test": "node --test test/",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": { "vite": "^6.0.0" }
+}
